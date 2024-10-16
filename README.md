@@ -24,7 +24,7 @@ from wak import get_stock_history
 #### Récupérer les cours historiques de la BCP entre 2020-01-01 et 2020-12-31
 get_stock_history(names="BCP", start="2020-01-01", end="2020-12-31")
 
-### Autres Fonctions
+
 
 #### get_dividendes(name)
 La fonction get_dividendes() :
@@ -36,32 +36,25 @@ La fonction get_dividendes() :
     get_dividendes(name="BCP")</code></pre>
     
 
--->get_ratios(name)    
-#### La fonction: get_ratios():
-renvoie les principaux ratios boursiers d'une société cotée.
+#### get_ratios(name)    
+La fonction: get_ratios():
+    renvoie les principaux ratios boursiers d'une société cotée.
     
 --> Exemple d'utilisation :
     from wak import get_ratios
     #### Récupérer les ratios boursiers de la BCP
     get_ratios(name="BCP")</code></pre>
 
-    get_carnet_ordres(name)</code></h4>
-    <p>La fonction <code>get_carnet_ordres()</code> renvoie le carnet d'ordres (ordres d'achat et de vente) d'une action pour la journée en cours.</p>
-    <p><strong>Exemple d'utilisation :</strong></p>
-    <pre><code>from wak import get_carnet_ordres
+#### get_carnet_ordres(name)</code></h4>
+La fonction get_carnet_ordres():
+    renvoie le carnet d'ordres (ordres d'achat et de vente) d'une action pour la journée en cours.
+    
+--> Exemple d'utilisation :
+    from wak import get_carnet_ordres
+    #### Récupérer le carnet d'ordres de la BCP pour aujourd'hui
+    get_carnet_ordres(name="BCP")
 
-# Récupérer le carnet d'ordres de la BCP pour aujourd'hui
-get_carnet_ordres(name="BCP")</code></pre>
+    
 
-    <h2>Contribuer</h2>
-    <p>Les contributions sont les bienvenues ! N'hésitez pas à soumettre des demandes de fonctionnalités, des rapports de bugs, ou des pull requests via notre <a href="https://github.com/votre-utilisateur/WAK">dépôt GitHub</a>.</p>
+Pour plus d'informations, visitez notre site web https://kamel.ma ou contactez-nous à ayoub@kamel.ma
 
-    <h2>Contact</h2>
-    <p>Pour plus d'informations, visitez notre <a href="https://votre-site-web.com">site web</a> ou contactez-nous à <a href="mailto:votre.email@example.com">votre.email@example.com</a>.</p>
-
-    <footer>
-        <p>&copy; 2024 WAK Scraper - Tous droits réservés</p>
-    </footer>
-
-</body>
-</html>
