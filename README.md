@@ -1,7 +1,7 @@
 
-#KAW Scraper
+# KAW Scraper
 
-##KAW Scraper :
+## KAW Scraper :
 
 est une bibliothèque Python permettant de récupérer des données financières des sociétés cotées à la Bourse de Casablanca, telles que les dividendes, les cours historiques des actions, et d'autres informations disponibles sur le site officiel.
 
